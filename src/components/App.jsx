@@ -3,7 +3,7 @@ import { UserInfo } from "./User/User";
 
 export const App = () => {
   return <>
-  <UserInfo />
+  <UserInfo isOnline/>
   <Stats />
   </>;
 };
